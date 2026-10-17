@@ -221,3 +221,5 @@ For support and questions, please create an issue in the repository.
 ## CI/CD
 
 Built, tested and deployed by a Jenkins pipeline (`Jenkinsfile`), triggered automatically by a GitHub webhook on every push.
+
+Pipeline stages: **Build** (npm ci + React production build) -> **Test** (backend syntax check + `node --test`) -> **Deploy** (publish frontend build).
