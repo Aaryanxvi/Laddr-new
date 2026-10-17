@@ -217,3 +217,7 @@ This project is licensed under the MIT License.
 For support and questions, please create an issue in the repository.
 
 
+
+## CI/CD
+
+Built, tested and deployed by a Jenkins pipeline (`Jenkinsfile`), triggered automatically by a GitHub webhook on every push.
