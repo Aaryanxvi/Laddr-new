@@ -31,6 +31,7 @@ function App() {
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/settings" element={<SettingsPage />} />
         </Routes>
+        <footer className="text-center text-sm text-gray-500 py-4">Built and deployed with Jenkins CI/CD</footer>
       </div>
     </Router>
   );
